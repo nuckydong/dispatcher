@@ -1,0 +1,1127 @@
+[2021-10-25 16:36:03.572] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:196: dispatch start 
+[2021-10-25 16:36:04.057] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:200: dispatch start success
+[2021-10-25 16:40:43.054] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:21: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 16:40:43.058] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:27: 无外部配置文件，加载包内配置文件
+[2021-10-25 16:40:43.062] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 配置文件加载成功
+[2021-10-25 16:40:43.062] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:197: dispatch start 
+[2021-10-25 16:40:43.550] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:201: dispatch start success
+[2021-10-25 16:40:46.269] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:99: topic: ebike/862708040045481/status收到消息: {"ver":1,"type":"st-rpt","mid":181,"ts":1635151247,"body":{"rtcm3":{"status":1,"valid":0,"f9p_valid":0,"meanAcc":141483,"dur":19764,"length":250,"data":"d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"}}}
+[2021-10-25 16:40:46.269] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:104: 推送 topic: ebike/865515052675692/control
+[2021-10-25 16:40:46.358] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #deliveryComplete:112: deliveryComplete---------true
+[2021-10-25 16:40:53.176] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:99: topic: ebike/862708040045481/status收到消息: {"ver":1,"type":"st-rpt","mid":182,"ts":1635151253,"body":{"rtcm3":{"status":1,"valid":0,"f9p_valid":0,"meanAcc":141474,"dur":19770,"length":250,"data":"d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"}}}
+[2021-10-25 16:40:53.177] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:104: 推送 topic: ebike/865515052675692/control
+[2021-10-25 16:40:53.265] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #deliveryComplete:112: deliveryComplete---------true
+[2021-10-25 16:40:59.870] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:99: topic: ebike/862708040045481/status收到消息: {"ver":1,"type":"st-rpt","mid":183,"ts":1635151260,"body":{"rtcm3":{"status":1,"valid":0,"f9p_valid":0,"meanAcc":141462,"dur":19777,"length":250,"data":"d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"}}}
+[2021-10-25 16:40:59.871] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:104: 推送 topic: ebike/865515052675692/control
+[2021-10-25 16:40:59.960] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #deliveryComplete:112: deliveryComplete---------true
+[2021-10-25 16:41:05.407] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:99: topic: ebike/862708040045481/status收到消息: {"ver":1,"type":"st-rpt","mid":184,"ts":1635151265,"body":{"rtcm3":{"status":1,"valid":0,"f9p_valid":0,"meanAcc":141459,"dur":19783,"length":250,"data":"d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"}}}
+[2021-10-25 16:41:05.407] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:104: 推送 topic: ebike/865515052675692/control
+[2021-10-25 16:41:05.496] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #deliveryComplete:112: deliveryComplete---------true
+[2021-10-25 17:03:59.666] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 17:03:59.669] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 无外部配置文件，加载包内配置文件
+[2021-10-25 17:03:59.670] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:35: 配置文件加载成功
+[2021-10-25 17:03:59.670] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:223: dispatch start 
+[2021-10-25 17:04:00.147] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:227: dispatch start success
+[2021-10-25 17:05:15.786] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:103: topic: ebike/862708040045481/status收到消息: {
+  "ver": 1,
+  "type": "st-rpt",
+  "mid": 198,
+  "ts": 1635151348,
+  "body": {
+    "rtcm3": {
+      "status": 1,
+      "valid": 0,
+      "f9p_valid": 0,
+      "meanAcc": 141464,
+      "dur": 19866,
+      "length": 250,
+      "data": "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+    }
+  }
+}
+[2021-10-25 17:05:15.874] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:17.717] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:18.171] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:18.597] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:19.002] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:19.414] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:19.550] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:19.824] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:19.962] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.004] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.233] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.370] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.417] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.417] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.650] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.783] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.830] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:20.832] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.058] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.193] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.242] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.243] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.376] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.467] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.604] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.653] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.651] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.654] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.654] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.769] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.783] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.830] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.837] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:21.876] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.013] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.057] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.059] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.059] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.177] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.190] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.194] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.236] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.238] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.239] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.284] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.418] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.462] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.464] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.466] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.589] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.599] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.600] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.614] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.644] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.645] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.651] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.658] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.660] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.693] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.824] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.873] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.887] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:22.998] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.006] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.012] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.022] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.026] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.051] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.068] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.069] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.069] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.071] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.099] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.189] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.190] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.279] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.283] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.283] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.295] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.298] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.403] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.417] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.418] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.431] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.433] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.444] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.445] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.460] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.474] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.474] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.474] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.477] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.478] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.480] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.507] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.581] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.599] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.599] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.613] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.646] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.660] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.688] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.690] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.690] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.703] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.704] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.705] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.809] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.823] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.824] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.840] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.840] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.841] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.855] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.855] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.870] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.870] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.870] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.884] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.884] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.886] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.887] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.887] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.887] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.913] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:23.993] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.005] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.006] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.007] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.007] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.023] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.052] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.055] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.067] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.067] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.097] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.098] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.099] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.112] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.113] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.115] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.116] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.219] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.220] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.235] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.235] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.236] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.248] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.253] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.266] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.266] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.280] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.280] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.281] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.294] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.295] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.295] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.297] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.300] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.309] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.402] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.415] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.416] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.416] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.416] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.417] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.421] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.429] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.445] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.464] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.464] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.465] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.476] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.477] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.480] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.481] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.491] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.506] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.508] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.509] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.521] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.522] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.523] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.526] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.627] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.629] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.643] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.644] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.648] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.657] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.658] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.673] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.675] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.688] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.688] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.688] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.690] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.702] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.703] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.703] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.704] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.706] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.723] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.814] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.824] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.824] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.825] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.828] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.829] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.829] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.832] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.839] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.840] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.849] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.854] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.854] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.855] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.872] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.874] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.875] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.884] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.885] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.886] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.889] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.890] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.890] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.891] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.903] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.915] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.916] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.916] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.917] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.918] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.931] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.932] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.933] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:24.934] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.006] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.009] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.038] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.040] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.052] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.052] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.053] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.055] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.066] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.070] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.081] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.081] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.097] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.102] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.104] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.112] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.116] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.116] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.117] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.117] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.118] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.118] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.126] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.130] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.218] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.221] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.222] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.234] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.235] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.235] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.234] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.236] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.238] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.237] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.248] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.248] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.249] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.250] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.251] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.251] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.253] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.264] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.264] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.264] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.264] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.278] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.280] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.281] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.293] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.298] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.300] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.309] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.323] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.325] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.327] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.329] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.339] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.339] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.339] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.341] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.400] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.415] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.415] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.418] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.432] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.446] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.448] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.459] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.460] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.460] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.461] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.476] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.476] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.491] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.493] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.506] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.506] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.508] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.508] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.509] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.513] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.520] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.522] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.525] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.526] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.526] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.537] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.538] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.625] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.626] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.628] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.640] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.639] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.641] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.641] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.642] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.643] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.643] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.657] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.657] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.657] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.657] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.658] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.658] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.659] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.659] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.670] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.671] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.672] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.672] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.672] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.684] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.685] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.685] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.686] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.687] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.689] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.689] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.700] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.701] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.702] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.703] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.703] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.704] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.704] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.705] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.705] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.705] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.706] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.707] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.717] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.718] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.718] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.731] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.732] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.732] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.737] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.748] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.750] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.807] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.809] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.824] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.825] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.825] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.825] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.828] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.829] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.837] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.841] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.854] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.855] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.866] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.868] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.868] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.870] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.882] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.884] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.886] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.886] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.900] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.900] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.904] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.905] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.917] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.919] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.919] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.920] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.921] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.921] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.921] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.931] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.931] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.931] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.933] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.933] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.934] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.935] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.939] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.939] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.945] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.946] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.946] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:25.948] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.035] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.036] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.036] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.036] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.037] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.039] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.048] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.048] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.050] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.050] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.051] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.051] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.052] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.064] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.064] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.065] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.065] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.066] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.066] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.067] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.067] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.069] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.070] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.079] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.079] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.079] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.080] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.081] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.082] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.093] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.095] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.096] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.096] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.097] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.097] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.099] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.113] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.129] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.131] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.131] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.132] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.132] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.133] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.134] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.134] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.134] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.135] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.136] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.136] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.137] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.138] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.141] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.142] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.142] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.143] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.144] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.154] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.155] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.156] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.157] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.213] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.217] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.230] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.230] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.230] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.231] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.231] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.232] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.232] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.233] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.245] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.246] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.246] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.259] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.260] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.260] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.262] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.273] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.274] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.275] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.279] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.289] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.289] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.289] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.290] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.291] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.303] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.305] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.307] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.321] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.321] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.321] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.321] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.321] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.323] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.323] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.327] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.339] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.340] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.340] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.342] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.342] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.342] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.342] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.343] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.344] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.344] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.345] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.345] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.351] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.353] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.353] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.440] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.442] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.443] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.443] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.446] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.454] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.454] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.456] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.456] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.457] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.457] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.458] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.458] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.460] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.460] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.460] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.470] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.470] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.471] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.471] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.472] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.474] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.476] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.477] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.477] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.485] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.486] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.486] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.487] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.488] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.500] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.501] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.501] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.501] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.501] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.502] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.502] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.502] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.502] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.503] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.503] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.511] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.519] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.519] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.519] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.520] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.521] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.521] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.530] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.530] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.531] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.531] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.532] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.532] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.536] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.544] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.544] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.545] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.545] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.546] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.548] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.548] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.549] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.549] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.551] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.552] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.560] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.561] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.563] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.622] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.623] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.636] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.636] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.636] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.637] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.638] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.638] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.638] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.650] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.651] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.651] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.652] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.654] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.654] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.655] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.657] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.665] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.667] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.667] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.668] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.681] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.682] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.682] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.682] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.683] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.685] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.697] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.697] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.698] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.698] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.698] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.698] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.710] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.711] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.712] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.713] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.713] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.714] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.726] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.726] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.728] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.728] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.729] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.729] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.731] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.740] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.741] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.741] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.742] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.743] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.743] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.745] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.755] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.756] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.757] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.758] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.758] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.759] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.759] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.831] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.844] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.844] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.845] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.847] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.849] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.851] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.861] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.861] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.862] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.862] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.862] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.863] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.863] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.863] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.865] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.866] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.875] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.874] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.876] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.877] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.879] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.879] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.879] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.880] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.880] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.880] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.883] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.883] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.883] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.890] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.891] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.892] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.892] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.892] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.893] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.904] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.905] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.906] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.907] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.907] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.908] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.908] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.912] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.920] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.920] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.922] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.922] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.923] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.924] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.925] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.925] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.934] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.936] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.937] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.937] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.938] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.939] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.949] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.950] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.952] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.952] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.952] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.952] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.953] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.954] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.965] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.966] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.965] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.966] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.967] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.967] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.969] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:26.971] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.025] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.026] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.040] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.040] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.040] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.040] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.041] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.041] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.042] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.042] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.044] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.045] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.054] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.055] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.055] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.056] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.056] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.056] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.057] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.059] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.059] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.060] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.070] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.070] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.071] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.071] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.071] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.071] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.073] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.073] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.074] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.077] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.085] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.085] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.086] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.087] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.087] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.088] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.100] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.101] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.102] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.103] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.103] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.106] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.115] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.115] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.116] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.117] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.117] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.117] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.118] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.118] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.119] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.120] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.122] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.130] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.131] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.133] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.133] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.133] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.133] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.133] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.146] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.146] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.146] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.147] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.148] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.148] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.150] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.151] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.152] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.160] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.161] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.162] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.162] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.162] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.163] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.163] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.224] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.235] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.236] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.237] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.238] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.250] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.252] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.252] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.252] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.253] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.264] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.265] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.266] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.267] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.267] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.267] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.268] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.271] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.273] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.280] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.281] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.281] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.281] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.282] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.282] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.282] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.284] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.286] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.289] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.295] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.296] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.297] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.297] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.298] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.298] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.301] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.302] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.303] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.310] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.312] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.311] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.312] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.313] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.314] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.314] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.316] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.319] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.319] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.325] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.325] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.326] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.327] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.327] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.328] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.328] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.328] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.328] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.329] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.335] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.335] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.340] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.341] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.342] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.342] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.344] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.345] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.345] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.345] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.346] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.346] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.346] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.354] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.355] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.355] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.358] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.358] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.359] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.360] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.362] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.370] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.370] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.371] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.371] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.372] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.373] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.374] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.376] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.430] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.434] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.444] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.445] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.445] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.446] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.447] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.447] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.451] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:05:27.451] INFO  --- [Thread: MQTT Rec: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开，重连
+[2021-10-25 17:19:03.963] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 17:19:03.966] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 无外部配置文件，加载包内配置文件
+[2021-10-25 17:19:03.967] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:35: 配置文件加载成功
+[2021-10-25 17:19:03.967] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:221: dispatch start 
+[2021-10-25 17:19:04.448] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:225: dispatch start success
+[2021-10-25 17:19:08.454] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:101: topic: ebike/862708040045481/status收到消息: {
+  "ver": 1,
+  "type": "st-rpt",
+  "mid": 198,
+  "ts": 1635151348,
+  "body": {
+    "rtcm3": {
+      "status": 1,
+      "valid": 0,
+      "f9p_valid": 0,
+      "meanAcc": 141464,
+      "dur": 19866,
+      "length": 250,
+      "data": "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+    }
+  }
+}
+[2021-10-25 17:19:08.523] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开
+[2021-10-25 17:19:46.861] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:101: topic: ebike/862708040045481/status收到消息: {"ver":1,"type":"st-rpt","mid":0,"ts":1635153586,"body":{"iot":{"stat":2,"vin":12096,"vbat":1594,"uptime":932,"temp":573,"mpu":0,"yaw":0,"pitch":0,"roll":0,"fall":0,"leak":0,"baro":0,"ride_mile":0,"driving":0,"scu_vs":0,"bat_vs":0,"dbu_vs":0,"hlu_vs":0,"lte_vs":1,"gps_vs":1,"btu_vs":0},"lte":{"stat":5,"join":5,"rssi":-59,"ber":99,"oper":"46000","tech":"FDD LTE","band":"LTE BAND 3","chan":1300},"gps":{"stat":3,"mode":1,"sv_unum":46,"lat":30631570,"nshemi":"N","lng":104022089,"ewhemi":"E","altitude":5297,"speed":0,"direct":2730,"hdop":9,"vdop":12,"pdop":15,"utc_time":1635153580}}}
+[2021-10-25 17:19:46.863] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #connectionLost:94: 链接断开
+[2021-10-25 17:21:26.407] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 17:21:26.410] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 无外部配置文件，加载包内配置文件
+[2021-10-25 17:21:26.411] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:35: 配置文件加载成功
+[2021-10-25 17:21:26.411] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:226: dispatch start 
+[2021-10-25 17:21:26.900] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:230: dispatch start success
+[2021-10-25 17:21:31.357] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:102: topic: ebike/862708040045481/status收到消息: {
+  "ver": 1,
+  "type": "st-rpt",
+  "mid": 198,
+  "ts": 1635151348,
+  "body": {
+    "rtcm3": {
+      "status": 1,
+      "valid": 0,
+      "f9p_valid": 0,
+      "meanAcc": 141464,
+      "dur": 19866,
+      "length": 250,
+      "data": "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+    }
+  }
+}
+[2021-10-25 17:21:31.431] ERROR --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:133: null
+java.lang.NullPointerException: null
+	at com.ebike.EbikeMqttClient.messageArrived(EbikeMqttClient.java:119) [classes/:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:513) [org.eclipse.paho.client.mqttv3-1.2.1.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:416) [org.eclipse.paho.client.mqttv3-1.2.1.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:213) [org.eclipse.paho.client.mqttv3-1.2.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[2021-10-25 17:22:01.380] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 17:22:01.383] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 无外部配置文件，加载包内配置文件
+[2021-10-25 17:22:01.383] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:35: 配置文件加载成功
+[2021-10-25 17:22:01.384] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:226: dispatch start 
+[2021-10-25 17:22:01.850] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:230: dispatch start success
+[2021-10-25 17:22:05.003] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:102: topic: ebike/862708040045481/status收到消息: {
+  "ver": 1,
+  "type": "st-rpt",
+  "mid": 198,
+  "ts": 1635151348,
+  "body": {
+    "rtcm3": {
+      "status": 1,
+      "valid": 0,
+      "f9p_valid": 0,
+      "meanAcc": 141464,
+      "dur": 19866,
+      "length": 250,
+      "data": "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+    }
+  }
+}
+[2021-10-25 17:22:05.078] ERROR --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:133: For input string: "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+java.lang.NumberFormatException: For input string: "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:580) ~[?:1.8.0_191]
+	at java.lang.Integer.parseInt(Integer.java:615) ~[?:1.8.0_191]
+	at com.alibaba.fastjson.util.TypeUtils.castToInt(TypeUtils.java:984) ~[fastjson-1.2.75.jar:?]
+	at com.alibaba.fastjson.JSONObject.getIntValue(JSONObject.java:253) ~[fastjson-1.2.75.jar:?]
+	at com.ebike.EbikeMqttClient.messageArrived(EbikeMqttClient.java:120) [classes/:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.deliverMessage(CommsCallback.java:513) [org.eclipse.paho.client.mqttv3-1.2.1.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.handleMessage(CommsCallback.java:416) [org.eclipse.paho.client.mqttv3-1.2.1.jar:?]
+	at org.eclipse.paho.client.mqttv3.internal.CommsCallback.run(CommsCallback.java:213) [org.eclipse.paho.client.mqttv3-1.2.1.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[2021-10-25 17:22:24.268] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 17:22:24.271] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 无外部配置文件，加载包内配置文件
+[2021-10-25 17:22:24.271] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:35: 配置文件加载成功
+[2021-10-25 17:22:24.271] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:226: dispatch start 
+[2021-10-25 17:22:24.762] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:230: dispatch start success
+[2021-10-25 17:22:26.309] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:102: topic: ebike/862708040045481/status收到消息: {
+  "ver": 1,
+  "type": "st-rpt",
+  "mid": 198,
+  "ts": 1635151348,
+  "body": {
+    "rtcm3": {
+      "status": 1,
+      "valid": 0,
+      "f9p_valid": 0,
+      "meanAcc": 141464,
+      "dur": 19866,
+      "length": 250,
+      "data": "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+    }
+  }
+}
+[2021-10-25 17:22:26.376] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:129: 推送 topic: ebike/865515052675692/control, msg:{
+	"ver":1,
+	"type":"ctl-cmd",
+	"mid":198,
+	"ts":1635151348,
+	"body":{
+		"rtcm3.broadcast":{
+			"seq":198,
+			"length":250,
+			"data":"d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+		}
+	}
+}
+[2021-10-25 17:22:26.464] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #deliveryComplete:140: deliveryComplete---------true
+[2021-10-25 17:32:00.923] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: 外部配置文件地址：D:\personal\ebike\dispatcher\config.properties
+[2021-10-25 17:32:00.926] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:31: 无外部配置文件，加载包内配置文件
+[2021-10-25 17:32:00.926] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:35: 配置文件加载成功
+[2021-10-25 17:32:00.926] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:234: dispatch start 
+[2021-10-25 17:32:01.416] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:238: dispatch start success
+[2021-10-25 17:32:16.923] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:101: topic: ebike/862708040045481/status收到消息: {
+  "ver": 1,
+  "type": "st-rpt",
+  "mid": 198,
+  "ts": 1635151348,
+  "body": {
+    "rtcm3": {
+      "status": 1,
+      "valid": 0,
+      "f9p_valid": 0,
+      "meanAcc": 141464,
+      "dur": 19866,
+      "length": 250,
+      "data": "d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+    }
+  }
+}
+[2021-10-25 17:32:16.993] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #messageArrived:137: 推送 topic: ebike/865515052675692/control, msg:{
+	"ver":1,
+	"type":"ctl-cmd",
+	"mid":198,
+	"ts":1635151348,
+	"body":{
+		"rtcm3.broadcast":{
+			"seq":198,
+			"length":250,
+			"data":"d300614320001bd0f8c200200028076180000000200000007fd193d49453d1d351116fc1643623f4eababb6eeb617fa527b105997b3cfe6b536c5fbc0f7140be56c00001e4b244000001e7c3400001f182dfec94d000001868105e86e625a47e2526a180acac1cd3002645a0001bd0f8c200204100000000000000200000006fef882b619a9ce4dc0000100000006bb23d2d14d300484640001bd01e00002011a4004000000000200000007ef7010504fc9a4741fc5e0de8fec1aa0db4859c25602f2052b01b8221c22c01558a12c7903aa0a0e9e05d5ce6811c71d36440af4cd7d300133ed000033ce6a6ea948c68bed6820785de43b938e38b"
+		}
+	}
+}
+[2021-10-25 17:32:17.081] INFO  --- [Thread: MQTT Call: JUST4TEST-123] c.e.EbikeMqttClient                               #deliveryComplete:148: deliveryComplete---------true
+[2021-10-26 10:25:51.693] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: The external config file : D:\personal\ebike\dispatcher\config.properties doesn't exists using inner package config
+[2021-10-26 10:25:51.700] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:29: Properties config load success
+[2021-10-26 10:25:51.701] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:203: Dispatcher start ...  
+[2021-10-26 10:25:52.184] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:213: Dispatcher start success
+[2021-10-26 10:28:46.970] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:25: The external config file : D:\personal\ebike\dispatcher\config.properties doesn't exists using inner package config
+[2021-10-26 10:28:46.974] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #<clinit>:29: Properties config load success
+[2021-10-26 10:28:46.975] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:203: Dispatcher start ...  
+[2021-10-26 10:28:47.473] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:208: tcp://47.96.136.185:1883
+[2021-10-26 10:28:47.474] INFO  --- [Thread:                 main] c.e.EbikeMqttClient                               #main:214: Dispatcher start success
